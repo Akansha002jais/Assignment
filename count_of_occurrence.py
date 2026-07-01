@@ -3,8 +3,9 @@ arr=[]
 for i in range(n):
     num= int(input("enter the elements :"))
     arr.append(num)
-print("even numbers in list are:")   
+element=int(input("Enter the element:"))
+count=0
 for i in arr:
-    if i%2==0:
-        print(i)
-# this is program to identify even no.
+    if i==element:
+        count=count+1
+print("occurrence of",element,"is",count)        

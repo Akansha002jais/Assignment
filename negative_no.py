@@ -3,8 +3,7 @@ arr=[]
 for i in range(n):
     num= int(input("enter the elements :"))
     arr.append(num)
-print("even numbers in list are:")   
+print("Negative numbers in list are:")    
 for i in arr:
-    if i%2==0:
-        print(i)
-# this is program to identify even no.
+    if i<0:
+        print(i)    
